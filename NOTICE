@@ -1,0 +1,12 @@
+docling-hebrew-ocr
+Copyright 2026 docling-hebrew-ocr contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The OCR models and the recognition code come from paddleocr-hebrew
+(https://github.com/RivoksLab/paddleocr-hebrew, Apache-2.0), installed as a
+dependency and not included here. The column-gutter split in lines.py follows
+ocrmypdf-hebrew (same authors, Apache-2.0).
+
+Docling (https://github.com/docling-project/docling) is MIT-licensed and is a
+dependency, not included here.
