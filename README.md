@@ -104,7 +104,8 @@ on `max_image_side` (default 6000 px), which lowers the scale for very large pag
   reads side-by-side blocks left to right, so on a two-column Hebrew page the left column
   comes before the right one (83-93% of side-by-side block pairs on the HaZefira scans,
   with every OCR engine). Lines inside each block are in the right order. A fix belongs in
-  Docling (an RTL option for the reading-order model).
+  Docling (an RTL option for the reading-order model), proposed in
+  [docling-project/docling#5238](https://github.com/docling-project/docling/issues/5238).
 - **Tables come out mirrored:** Docling numbers table columns from the left, so a Markdown
   table starts with the column a Hebrew reader reads last. The text inside each cell is in
   logical order (this engine feeds the table model words in reading order).
