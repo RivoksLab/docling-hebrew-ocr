@@ -4,6 +4,8 @@ A Hebrew OCR engine for [Docling](https://github.com/docling-project/docling), b
 [paddleocr-hebrew](https://github.com/RivoksLab/paddleocr-hebrew). Use it for scanned
 Hebrew documents, and for PDFs whose Hebrew text layer is broken (reversed, garbled or
 missing), with `OcrMode.FULL_PAGE`.
+How the models were built and how they score: the
+[Hebrew OCR article](https://rivoklabs.com/research/hebrew-ocr) by [Rivok Labs](https://rivoklabs.com).
 
 Docling's built-in engines and Hebrew: only Tesseract (`heb`) reads it. RapidOCR has no
 Hebrew model, EasyOCR ships a Hebrew character list but no Hebrew model, and Nemotron OCR
