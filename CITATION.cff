@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "docling-hebrew-ocr: a Hebrew OCR engine for Docling"
+message: "If you use this software, please cite this repository."
+type: software
+authors:
+  - name: "Rivok Labs"
+    website: "https://rivoklabs.com"
+repository-code: "https://github.com/RivoksLab/docling-hebrew-ocr"
+url: "https://pypi.org/project/docling-hebrew-ocr/"
+license: Apache-2.0
+version: "0.1.0"
+date-released: "2026-11-07"
+keywords:
+  - Hebrew
+  - OCR
+  - Docling
+  - right-to-left
+  - PaddleOCR
+  - ONNX
+abstract: >-
+  A Hebrew OCR engine plugin for Docling, backed by the paddleocr-hebrew models, for scanned
+  Hebrew documents and for PDFs whose Hebrew text layer is broken.
+references:
+  - type: software
+    title: "paddleocr-hebrew"
+    authors:
+      - name: "Rivok Labs"
+    doi: "10.5281/zenodo.22163990"
+    repository-code: "https://github.com/RivoksLab/paddleocr-hebrew"

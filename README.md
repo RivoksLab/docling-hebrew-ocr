@@ -13,6 +13,8 @@ has none either.
 
 > 0.1.0, the first release. Tested with Docling 2.148 on CPU (Linux).
 
+Using docling-hebrew-ocr in a project or product? We'd love to hear about it: [ronen@rivoklabs.com](mailto:ronen@rivoklabs.com).
+
 ## Install
 
 ```bash
@@ -166,4 +168,4 @@ DOCLING_HEBREW_OCR_MODELS=/path/to/models pytest       # also the end-to-end tes
 
 ## Licence
 
-Apache-2.0. See `LICENSE` and `NOTICE`.
+Apache-2.0. See `LICENSE` and `NOTICE`. If you use it, a credit or a link back to this repository is appreciated.
